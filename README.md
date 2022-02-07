@@ -2,7 +2,7 @@
 
 This e-portfolio contains the outcomes from my learning journey throughout my MSc in Computer Science at the University of Essex (UK).
  
-Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/).
+Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/) and an [example of project on a contact book application in Python](https://github.com/marianne-manaog/ContactBookPythonApplication) that I completed as a part of the first module named 'Launching into Computer Science'.
 
 
 ## Module 1: Launching into Computer Science
