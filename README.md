@@ -2,7 +2,7 @@
 
 This e-portfolio contains the outcomes from my learning journey throughout my MSc in Computer Science at the University of Essex (UK).
  
-Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/) and an [example of project on a contact book application in Python](https://github.com/marianne-manaog/ContactBookPythonApplication) that I completed as a part of the first module named 'Launching into Computer Science'.
+Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/).
 
 
 ## Module 1: Launching into Computer Science
@@ -16,8 +16,10 @@ Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/) and
 * Unit 7: Data Abstraction
 * Unit 8: An Introduction to Algorithms and Basic Programming Concepts
 * Unit 9: Solving Problems Using Python
+	- [Example of project on a contact book application developed in Python](https://github.com/marianne-manaog/ContactBookPythonApplication).
 * Unit 10: Data Representation using Database Concepts
 * Unit 11: Advanced SQL
+	- [SQL queries](https://github.com/marianne-manaog/sql-assignment-essex) created to answer specific questions set in an assignment.
 * Unit 12: Research Topics in Computer Science – Data Science, AI and Standards 
 
 
