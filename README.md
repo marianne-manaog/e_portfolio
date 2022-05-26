@@ -44,7 +44,7 @@ Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/).
 	- [Assignment on a software system design to help in managing self-service checkouts at a supermarket](https://github.com/marianne-manaog/oois_system_design), including classes, their relationships, and a related UML class diagram
 	- [UML 3NF-compliant ERD on property lettings](https://github.com/marianne-manaog/oois-python-sql-uml/tree/main/src/unit_7_exercises)
 * Unit 8: Hands-on with Database Design
-	- [UML 3NF-compliant ERD on a Graph DB-like card fraud detection-related use case](https://github.com/marianne-manaog/oois-python-sql-uml/tree/main/src/unit_8_exercises)
+	- [UML 3NF-compliant ERD on a Graph DB-like card fraud detection-related use case](https://github.com/marianne-manaog/oois-python-sql-uml/blob/main/src/unit_8_exercises/unit_8_uml_erd_3nf_graph_db_card_fraud_detection.png)
 	- [Own post](https://github.com/marianne-manaog/oois-python-sql-uml/blob/main/src/unit_8_exercises/Alternatives_to_SQL_collaborative_discussion.docx) as a part of a collaborative discussion on alternatives to SQL, with focus on Graph DBs.
 * Unit 9: Implementing Database with SQL
 	- [Own responses to peers](https://github.com/marianne-manaog/oois-python-sql-uml/blob/main/src/unit_9_exercises/Peer%20responses%20to%20collaborative%20discussion%20on%20Alternatives%20to%20SQL.docx) during a collaborative discussion on alternatives to SQL.
