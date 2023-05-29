@@ -78,6 +78,9 @@
                      <li><a href="sepm_module.html">SEPM module</a></li>
                      <li><a href="sepm_reflections.html">Reflections - SEPM</a></li>
 
+                     <li><a href="rmpp_module.html">RMPP module</a></li>
+                     <li><a href="rmpp_reflections.html">Reflections - RMPP</a></li>
+
                   </ul>
 
                </nav>
@@ -102,45 +105,46 @@
 
                               <header class="major">
 
-                                 <h1>Reflections on Software Engineering Project Management</h1>
+                                 <h1>Reflections on Research Methods and Professional Practice</h1>
 
                               </header>
 
                               <span class="image main"><img src="https://cdn.pixabay.com/photo/2015/09/05/07/28/writing-923882_960_720.jpg" alt="" data-position="top center" /></span>
 
-                              <p>In this individual reflection, I outline the knowledge, skills, and lessons I gained by undertaking the “Software Engineering Project Management” module, as a part of my Master’s degree course in Computer Science at the University of Essex. Moreover, I describe how I improved my skills in project management and software engineering by leveraging Agile (Scrum) (Fowler & Highsmith, 2001) and Behaviour-Driven Development (BDD) (Solis & Wang, 2011) to design, implement, and test a Python-based application that runs a race car game with three of my coursemates. This game was created using the Python library named ‘pygame’ (McGugan, 2007) and tested via the ‘pytest’ framework (Okken, 2022). I found this project intellectually stimulating and thoroughly enjoyed my productive interactions with my colleagues, with whom we divided and conquered very well from the start to the end of the project. I pondered on the lessons learnt from the work within this team to build a fully functional application that met the requirements of key user personas, such as the producer, the guardian (e.g., a parent), and the child (the user of the remote-controlled race car game). I will describe how I improved my project management and software engineering skills, especially an effective and efficient Agile practice (Fowler & Highsmith, 2001) and automated testing, including linting/code quality- (Kannan et al., 2022) and security-related checks (Peng et al., 2019). Furthermore, I enhanced my soft skills, such as empathy, collaboration, time management, and presentation.</p>
-
-
-
-                              <p>To make sure that my key takeaways and reflections are narrated from a logical perspective, I used the nursing-like methodology of Rolfe et al. (2001) in outlining them to ensure I could draw actionable insights from my experience during this module and team work to enhance my technical/hard and soft skills. This process was necessary, because project management for software engineering does not have any structured ways to capture such reflections, apart from a verbal retrospective in Scrum (Fowler & Highsmith, 2001).</p>
-
-
-
-                              <p>I uploaded all artefacts on GitHub at <a href="https://github.com/marianne-manaog/sepm-module-activities">this link</a>, which include devising, developing, and testing of the codes, as well as various activities carried out and discussions held during the module. Furthermore, the race car game-based application I built and tested with my coursemates as a part of an assignment is available on GitHub at <a href=" https://github.com/SEPM-Nov-2022/sepm-rc-car">this link</a>. As a part of this Python-based race car-related application, I added all tests-related files I wrote for automated unit testing under <a href=" https://github.com/SEPM-Nov-2022/sepm-rc-car/tree/main/tests/rc_car">this directory</a> on GitHub; I created all of them except for those in the ‘test_analytics.py’ and ‘test_game.py’ that Alberto created after my initial unit tests, thus based on my guidance. The collaboration with my colleagues throughout this project established a fruitful trust-based working relationship, which was key to a successful project management and delivery. Furthermore, I implemented and such unit tests via ‘pytest’ and automated security scans via the ‘bandit’ and ‘safety’ open-source libraries in Python (Peng et al., 2019) by including them in the GitHub Action as per <a href=" https://github.com/SEPM-Nov-2022/sepm-rc-car/blob/main/.github/workflows/github_actions.yml">this file</a> on GitHub. I leveraged the listing tool or library named ‘pylint’ in Python for code quality checks (Kannan et al., 2022) and automated these too by adding it as a separate linting check-related stage of the CI/CD pipeline to the above-mentioned GitHub Action. Automating unit testing, security checks, and linting/code quality checks via GitHub ensured full visibility of all test reports to the entire team, thus fostering transparency and cooperation further in the team.</p>
-
-<p>Differently from the design report, in this software engineering project, due to time constraints, we did not manage to implement the parental control functionalities. Nevertheless, as a team, we focused on implementing and testing the key functional requirements of the game-related application, thus resulting in a fully functional, user-friendly race car game that fosters diversity in car racing. Leveraging empathy with each other, we have been glad to complete the project to the best of our skills, possibilities, and within such tight deadlines.p>
-
-<p>As kindly noted by the lecturer, we focused on implementing relevant analytics to ensure reports of the game are created and stored, as well as I implemented a centralised logger to have full auditability of the race car game-based application, which are two forerunners of the parental control functionalities that could be implemented as a part of future work.</p>
-
-<p>Nevertheless, in this team work, I was satisfied of having been able to communicate and divide and conquer effectively with my team members, thus leveraging each other’s skills and experience wisely and productively throughout the project. I understood and appreciated how important the Agile principle of creating a ‘self-managing team’ (Fowler & Highsmith, 2001) is to minimise unnecessary administrative work and dedicate to develop the key functional components of the software. Thus, prioritising meeting the end users’ requirements and ensuring a smooth user experience are pivotal in the success of a software engineering project. I took full ownership of my tasks and demonstrated initiative in delivering further tasks, such as implementing a central global logger and additional unit testing of other members’ codes, such as the ‘battery.py’, ‘remote.py’, and ‘car.py’ files, which involve quite complex but key functionalities of the race car game that other team members were unable to test. Thus, I was delighted and felt useful by being able to help my team further in this capacity.</p>
-
-                              <p>Moreover, I used the software engineering-related activities in Codio during the module to add value to our team’s project, such as leveraging the linting tool ‘pylint’ (Kannan et al., 2022). Moreover, I genuinely went above and beyond by automating this code quality check via GitHub Actions, thus embedding it as a separate stage in the CI/CD pipeline. The collaborative discussions with my peers both on the VLE platform and on Slack (our main communication channel during the project), as well as on Zoom, were pivotal to build and foster comradery, which was a key factor that led to a successful cooperation and project delivery, besides dividing and conquering based on each member’s skillset and experience./p>
-
-
+                              <p>
+                              In this reflective piece, I summarise my lessons learnt and insights from the “Research Methods and Professional Practice” module, which I undertook during my Master’s degree course in Computer Science at the University of Essex. Furthermore, I outline how I improved my knowledge and skills in both qualitative and quantitative research, as well as the associated ethics. I also had the chance to discuss two research ethics-related case studies with my peers (Gray et al., 2018; Navalta et al., 2019), thus being able to appreciate how ensuring informed consent and safeguarding users’ data privacy (Atlam & Wills, 2020), as well as reporting data and results from research accurately (Navalta et al., 2019) are of paramount importance from professional, legal, ethical, and social standpoints. I also had the chance to revise the Agile methodology (Fowler & Highsmith, 2001), in particular Scrum for aiding software development (Garcia et al., 2022), and the Delphi technique for risk management (Nasa et al., 2021). Furthermore, I enhanced my soft skills, such as creativity, critical thinking, problem solving, project and time management, and presentation.
+                              </p>
 
                               <p>
+                              I leveraged the nursing-related methodology of Rolfe et al. (2001) to ensure a logical narrative for my reflections. This process was required considering that project management typically lacks a structured approach to articulate, except for a verbal retrospective in Scrum (Fowler & Highsmith, 2001).
+                              </p>
 
-                              To quantify how my relevant skills were improved via the lessons learnt in this module on Secure Software Development, please see my skills matrix in <b>Fig. 1.</b> below.</p>
+                              <p>
+                              I uploaded artefacts for each unit on GitHub at <a href="https://github.com/marianne-manaog/rmpp-module-activities">this link</a>, which include my posts during two collaborative discussions, i.e., initial and summary posts, and peer responses, as well as my two assignments (literature review and research proposal presentation) and various activities performed throughout the module, such as all statistics-related exercises for unit 8 at <a href="https://github.com/marianne-manaog/rmpp-module-activities/tree/main/unit_8">this link</a> and those for unit 9 at <a href="https://github.com/marianne-manaog/rmpp-module-activities/tree/main/unit_9">this link</a>. After carrying out the literature review and receiving the tutor’s expert feedback, I learnt that the activity of performing a critical analysis of relevant literature (Elsbach & van Knippenberg, 2020) was not straightforward and involved thoroughly assessing pros and cons of related research works to identify knowledge gaps to fill. If I were to write a literature review again, I would not only create an outline but also a storyboard with brief sentences or bullet points (Dong et al., 2019), as well as draft charts (figures and tables), articulating the key messages sought to be conveyed for each section to ensure quality and focus of its content.
+                              </p>
+
+                              <p>
+                              Further to seeing the tutor’s evaluation of my research proposal evaluation, I learnt to appreciate the importance of a clear, concise, and effective oral delivery to ensure the key takeaway messages are articulated such that they are understood quickly and valued. Next time, I would enhance the level of engagement of the presentation by providing more dynamic examples that illustrate the descriptive concepts that are discussed to support the research proposal.
+                              </p>
+
+                              <p>
+                              Thanks to the tutorial-like examples and exercises regarding statistics during this module, I was able to revisit known statistical concepts and tests, and enhance my skills in interpreting their results and articulating their conclusions in a non-technical, understandable manner. I particularly enjoyed the activities on testing the assumptions of statistical tests to discern which test was more suitable for a particular dataset and scenario. Furthermore, visualising the insights from the statistical tests in a user-understandable manner to highlight certain patterns discovered in the data and compare them with the quantitative outcomes from the tests was pivotal to ensure a practical, tangible translation of research findings. I also had the chance to practise on quantitative and conclusive research methods (Humaidi et al., 2020) that I applied to create a compelling research proposal that was anchored on quantitative findings illustrated in the literature review-related assignment preceding it.
+                              </p>
+
+                              <p>
+                              Being able to learn and understand the applicability of qualitative and quantitative research methods (Kuehn & Rohlfing, 2022), as well as inductive and deductive approaches, was key to equip me with tools to leverage at the workplace to select the appropriate methodology for the use case and data collection techniques considered. The tutor’s feedback on my literature review was useful to understand the critical aspects to fine tune to ensure the knowledge gaps highlighted are further motivated and discussed regarding how to fill them in a concise manner (Elsbach & van Knippenberg, 2020). The tutor also helped me improve my oral delivery in presentations, thus ensuring more clear and concise messages that can be understood more quickly and, thus, appreciated by a broader audience (Waluyo & Rofiah, 2021). Emotionally, I felt like I could trust the tutor because she followed swiftly on our submissions and provided candid feedback for us to leverage to truly enhance our relevant skillset to this module (Weltman et al., 2019). Because she made me feel at ease throughout this module (Weltman et al., 2019), I was able to leverage her feedback to improve upon my soft and technical skills by leveraging each assessment as a springboard to practise on the areas of development that were highlighted along the way. In future, I would continue to pay close attention at the feedback provided by both peers and supervisors or tutors to ensure I become more well-rounded as a person and as a professional, thus leveraging not only technical, research skills, but also deepening my ethics-related awareness and foundations to be a more competent and solid professional.
+                              </p>
+
+                              <p>
+                              To assess the extent of improvement in my skills related to this module on Research Methods and Professional Practice quantitatively, please view my skills matrix on <b>Fig. 1.</b>.
+                              </p>
+
+
+                              <span class="image main"><img src="images/Skills_matrix_before_and_after_RMPP_module.png" style="background-color:white;" alt="" data-position="top center" /></span>
 
 
 
-
-
-                              <span class="image main"><img src="images/Skills_matrix_before_and_after_SEPM_module.png" style="background-color:white;" alt="" data-position="top center" /></span>
-
-
-
-                              <p><b>Figure 1.</b> How my relevant skills were enhanced by undertaking the ‘Software Engineering Project Management’ module.</p>
+                              <p><b>Figure 1.</b> My overall higher competence across the skills related to the ‘Research Methods and Professional Practice’ module.</p>
 
 
 
@@ -148,25 +152,32 @@
 
         <p><b>References</b></p>
 
+
+                              <p>Atlam, H. F., & Wills, G. B. (2020) IoT security, privacy, safety and ethics. Digital twin technologies and smart cities 123-149.</p>
+
+   <p>Dong, A., Zeng, W., Chen, X., & Cheng, Z. (2019) VIStory: Interactive storyboard for exploring visual information in scientific publications. In Proceedings of the 12th International Symposium on Visual Information Communication and Interaction (pp. 1-8).</p>
+
+   <p>Elsbach, K. D., & van Knippenberg, D. (2020) Creating high‐impact literature reviews: An argument for ‘integrative reviews’. Journal of Management Studies 57(6): 1277-1289.</p>
+
    <p>Fowler, M., & Highsmith, J. (2001) The agile manifesto. Software development 9(8): 28-35.</p>
 
-   <p>Kannan, J., Barnett, S., Cruz, L., Simmons, A., & Agarwal, A. (2022) MLSmellHound: a context-aware code analysis tool. In Proceedings of the ACM/IEEE 44th International Conference on Software Engineering: New Ideas and Emerging Results (pp. 66-70).</p>
+   <p>Garcia, L. A., OliveiraJr, E., & Morandini, M. (2022) Tailoring the Scrum framework for software development: Literature mapping and feature-based support. Information and Software Technology 146: 106814.</p>
 
-   <p>McGugan, W. (2007) Beginning game development with Python and Pygame: from novice to professional. Apress.</p>
+   <p>Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018) The dark (patterns) side of UX design. In Proceedings of the 2018 CHI conference on human factors in computing systems (pp. 1-14).</p>
 
-   <p>Okken, B. (2022) Python Testing with pytest. Pragmatic Bookshelf.</p>
+   <p>Humaidi, A., Khoirudin, M., Adinda, A. R., & Kautsar, A. (2020) The effect of financial technology, demography, and financial literacy on financial management behavior of productive age in Surabaya, Indonesia. International Journal of Advances in Scientific Research and Engineering 6(01): 77-81.</p>
 
-   <p>Peng, S., Liu, P., & Han, J. (2019). A Python security analysis framework in integrity verification and vulnerability detection. Wuhan University Journal of Natural Sciences, 24(2), 141-148.</p>
+   <p>Kuehn, D., & Rohlfing, I. (2022) Do Quantitative and Qualitative Research Reflect two Distinct Cultures? An Empirical Analysis of 180 Articles Suggests “no”. Sociological Methods & Research, 00491241221082597.</p>
+
+   <p>Nasa, P., Jain, R., & Juneja, D. (2021). Delphi methodology in healthcare research: how to decide its appropriateness. World Journal of Methodology, 11(4), 116.</p>
+
+   <p>Navalta, J. W., Stone, W. J., & Lyons, S. (2019) Ethical issues relating to scientific discovery in exercise science. International journal of exercise science 12(1): 1.</p>
 
    <p>Rolfe, G., Freshwater, D. & Jasper, M. (2001) Critical reflection in nursing and the helping professions: a user’s guide. Basingstoke: Palgrave Macmillan.</p>
 
-   <p>Solis, C., & Wang, X. (2011) A study of the characteristics of behaviour driven development. In 2011 37th EUROMICRO conference on software engineering and advanced applications (pp. 383-387). IEEE.</p>
+   <p>Waluyo, B., & Rofiah, N. L. (2021) Developing Students' English Oral Presentation Skills: Do Self-Confidence, Teacher Feedback, and English Proficiency Matter?. Mextesol Journal 45(3): n3.</p>
 
-
-
-
-
-
+   <p>Weltman, H. R., Timchenko, V., Sofios, H. E., Ayres, P., & Marcus, N. (2019) Evaluation of an adaptive tutorial supporting the teaching of mathematics. European Journal of Engineering Education 44(5): 787-804.</p>
 
                            </div>
 
